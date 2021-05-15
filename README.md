@@ -1,1 +1,3 @@
 # MBD_Text
+
+El objetivo de este proyecto es la traducción de frases en inglés, el idioma de salida será el español. Para ello, se ha realizado 3 tipos de redes para conseguir la traducción de las frases (simple RNN, bidirectional RNN y LSTM). El notebook con el trabajo desarrollado es __LAB_TEXT_MachineTranslation_DE_EN.ipynb__ y también se ha utilizado el script __text.py__ donde se encuentran algunas de las funciones utilizadas en el notebook.

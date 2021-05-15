@@ -14,12 +14,15 @@ class UTILS:
         """
         print("Instancia de la clase UTILS creada")
 
-    def read_data(self, filename: str = 'deu-eng/deu_modif.txt'):
+    def read_data(self, filename: str = 'deu-eng/deu_modif.txt') -> list:
         """ 
         Función para leer el texto que se encuentra dentro del archivo especificado y dividir el texto obtenido en pares alemán/inglés o inglés/español.
 
         Args:
             filename (str): archivo del que se va a leer el texto.
+
+        Returns:
+            list: Texto de los dos idioams del archivo.
         """
 
         file = open(filename, mode='rt', encoding='utf-8')
